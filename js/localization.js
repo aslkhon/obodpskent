@@ -9,7 +9,7 @@ function switchLang() {
     document.getElementById('p1').innerHTML = 'Отправьте информацию в соответствующие организации без многочисленных этапов регистрации.'
 
     document.getElementById('h2').innerHTML = 'Быстро'
-    document.getElementById('p2').innerHTML = 'Сотрудники asdasХокимията изучат полученную информацию и ответят Вам в онлайн формате о результатах.'
+    document.getElementById('p2').innerHTML = 'Сотрудники Хокимията изучат полученную информацию и ответят Вам в онлайн формате о результатах.'
 
     document.getElementById('h3').innerHTML = 'Эффективно'
     document.getElementById('p3').innerHTML = 'Отслеживайте результаты без необходимости происуствовать в длительных очередях на приеме у хокимията.'
@@ -40,21 +40,21 @@ function switchLang() {
     document.getElementById('intro').innerHTML = 'Pskent tuman hokimiyati Sizning atrof-muhitni saqlash va obodonlashtirishdagi faolligingizni qo\'llab-quvvatlash uchun ObodPskent loyihasini taqdim etadi. Ilovani AppStore va PlayMarketdan o\'z telefoningizga yuklab oling.'
     
     document.getElementById('h1').innerHTML = 'Oson'
-    document.getElementById('p1').innerHTML = 'Qulay dastur interfeysi yordamida Siz hokimiyatga ma\'lumotni oson yo\'llash imkoniyatini beradi. Ro\'yxatdan o\'tish tez va oson.'
+    document.getElementById('p1').innerHTML = 'Qulay dastur interfeysi hokimiyatga ma\'lumotingizni uzoq ro\'yxatdan o\'tish bosqichlarisiz yo\'llash imkoniyatini beradi.'
 
     document.getElementById('h2').innerHTML = 'Tezkor'
-    document.getElementById('p2').innerHTML = 'Hokimiyat kelgan ma\'lumotlarni tezkor ko\'rib chiqadi va uni yechimi to\'g\'risida Sizga onlayn ravishda javob qaytaradi.'
+    document.getElementById('p2').innerHTML = 'Hokimiyat kelgan ma\'lumotlarni tezkor ko\'rib chiqadi va uni yechimi haqida Sizga onlayn ravishda javob qaytaradi.'
 
     document.getElementById('h3').innerHTML = 'Navbatsiz'
     document.getElementById('p3').innerHTML = 'Amalga oshirilgan jarayonlarni onlayn ravishda ko\'rib boring. Hokimiyatga endilikda kelib-ketish hojati yo\'q.'
 
     document.getElementById('targetBand').innerHTML = 'Xususiyat'
     document.getElementById('targetHeading').innerHTML = 'Loyiha maqsadi'
-    document.getElementById('target').innerHTML = 'Obod Pskent loyihaning oldiga qo\'yilgan asosiy maqsad bu Pskent tumanida obodonlashtirish va atrof-muhitni saqlashga yo\'naltirilgan jarayonlarni fuqarolar faol ishtirokida tuman hokimiyati va ma\'sul tashkilotlar tarafidan obodonlashtirish ishlar amalga oshirish.'
+    document.getElementById('target').innerHTML = 'Obod Pskent loyihaning oldiga qo\'yilgan asosiy maqsad bu Pskent tumanida obodonlashtirish va atrof-muhitni saqlashga yo\'naltirilgan jarayonlarni fuqarolar faol ishtirokida tuman hokimiyati va ma\'sul tashkilotlar tarafidan amalga oshirish.'
 
     document.getElementById('instructions').innerHTML = 'Foydalanish uchun qo\'llanma'
     document.getElementById('instructions_desc').innerHTML = 'Ilovadan foydalanish uchun quyidagi qo\'llanma bilan tanishing.'
-    document.getElementById('downloadNow').innerHTML = 'Xoziroq yuklab oling'
+    document.getElementById('downloadNow').innerHTML = 'Hoziroq yuklab oling!'
 
     document.getElementById('hokimiyat').innerHTML = 'Hokimiyat bilan bog\'laning'
     document.getElementById('address').innerHTML = 'Manzil:'
