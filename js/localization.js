@@ -14,6 +14,7 @@ function switchLang() {
     document.getElementById('h3').innerHTML = 'Эффективно'
     document.getElementById('p3').innerHTML = 'Отслеживайте результаты без необходимости происуствовать в длительных очередях на приеме у хокимията.'
 
+    document.getElementById('targetBand').innerHTML = 'Задача'
     document.getElementById('targetHeading').innerHTML = 'Цель проекта'
     document.getElementById('target').innerHTML = 'Основная цель проекта - обеспечение благоприятной окружающей среды в Пискентском районе и реализация со стороны хокимията и ответственных организаций природоохранных процессов при активном участии граждан.'
 
@@ -50,6 +51,7 @@ function switchLang() {
     document.getElementById('h3').innerHTML = 'Navbatsiz'
     document.getElementById('p3').innerHTML = 'Amalga oshirilgan jarayonlarni onlayn ravishda ko\'rib boring. Hokimiyatga endilikda kelib-ketish hojati yo\'q.'
 
+    document.getElementById('targetBand').innerHTML = 'Xusisiyat'
     document.getElementById('targetHeading').innerHTML = 'Loyiha maqsadi'
     document.getElementById('target').innerHTML = 'ObodPskent loyihaning oldiga qo\'yilgan asosiy maqsad bu Piskent tumanida obodonlashtirish va atrof-muhitni saqlashga yo\'naltirilgan jarayonlarni fuqarolar faol ishtirokida tuman hokimiyati va ma\'sul tashkilotlar tarafidan amalga oshirish.'
 
