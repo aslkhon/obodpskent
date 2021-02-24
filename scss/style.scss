@@ -56,3 +56,9 @@
 .brand-logo {
   margin-top: 32px;
 }
+
+.hide {
+  @media (max-width: 991px) {
+    display: none;
+  }
+}

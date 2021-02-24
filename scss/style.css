@@ -23275,4 +23275,10 @@ p {
 .brand-logo {
   margin-top: 32px;
 }
+
+@media (max-width: 991px) {
+  .hide {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
