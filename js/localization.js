@@ -37,7 +37,7 @@ function switchLang() {
 
     uzbek = false
   } else {
-    document.getElementById('intro').innerHTML = 'Pskent tuman hokimiyati Sizning atrof-muhitni saqlash va obodonlashtirishdagi faolligingizni qo\'llab-quvvatlash uchun ObodPskent loyihasini taqdim etadi. Ilovani AppStore va PlayMarketdan o\'z telefoningizga yuklab oling.'
+    document.getElementById('intro').innerHTML = 'Pskent tuman hokimiyati Sizning atrof-muhitni saqlash va obodonlashtirishdagi faolligingizni qo\'llab-quvvatlash uchun ObodPskent loyihasini taqdim etadi. Ilovani AppStore va PlayMarketdan\n o\'z telefoningizga yuklab oling.'
     
     document.getElementById('h1').innerHTML = 'Oson'
     document.getElementById('p1').innerHTML = 'Qulay dastur interfeysi yordamida Siz hokimiyatga ma\'lumotni oson yo\'llash imkoniyatini beradi. Ro\'yxatdan o\'tish tez va oson.'
