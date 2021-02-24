@@ -30,6 +30,9 @@ function switchLang() {
     document.getElementById('privacy').innerHTML = 'Политика конфиденциальности '
     document.getElementById('terms').innerHTML = ' Условия использования'
 
+    
+    document.getElementById('introImgOne').src = './image/hero-phone-1_rus.png'
+    document.getElementById('introImgTwo').src = './image/hero-phone-2_rus.png'
     document.getElementById('imgOne').src = './image/one_rus.png'
     document.getElementById('imgTwo').src = './image/two_rus.png'
     document.getElementById('imgThree').src = './image/three_rus.png'
@@ -67,6 +70,8 @@ function switchLang() {
     document.getElementById('privacy').innerHTML = 'Maxfiylik siyosati '
     document.getElementById('terms').innerHTML = ' Foydalanish shartlari'
 
+    document.getElementById('introImgOne').src = './image/hero-phone-1.png'
+    document.getElementById('introImgTwo').src = './image/hero-phone-2.png'
     document.getElementById('imgOne').src = './image/one.png'
     document.getElementById('imgTwo').src = './image/two.png'
     document.getElementById('imgThree').src = './image/three.png'
