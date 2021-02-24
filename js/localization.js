@@ -9,7 +9,7 @@ function switchLang() {
     document.getElementById('p1').innerHTML = 'Отправьте информацию в соответствующие организации без многочисленных этапов регистрации.'
 
     document.getElementById('h2').innerHTML = 'Быстро'
-    document.getElementById('p2').innerHTML = 'Сотрудники Хокимията изучат полученную информацию и ответят Вам в онлайн формате о результатах.'
+    document.getElementById('p2').innerHTML = 'Сотрудники asdasХокимията изучат полученную информацию и ответят Вам в онлайн формате о результатах.'
 
     document.getElementById('h3').innerHTML = 'Эффективно'
     document.getElementById('p3').innerHTML = 'Отслеживайте результаты без необходимости происуствовать в длительных очередях на приеме у хокимията.'
