@@ -1,0 +1,58 @@
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/spacings';
+@import 'components/buttons';
+@import 'components/_typography';
+@import 'sections';
+
+.download--button {
+  background-color: transparent !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 164px;
+  height: 50px;
+}
+
+.download--button:hover {
+  background-color: transparent;
+}
+
+.android {
+  background-image: url('../image/anroid.svg');
+}
+
+.apple {
+  background-image: url('../image/ios.svg');
+}
+
+.university {
+  min-height: 50px;
+  min-width: 100%;
+}
+
+.section-padding-top {
+  margin-bottom: 32px;
+}
+
+.fa-globe {
+  font-size: 32px;
+}
+
+.main-menu {
+  position: fixed;
+  z-index: 999;
+}
+
+.lang {
+  position: fixed;
+  z-index: 999;
+  right: 32px;
+}
+
+.lang:hover {
+  cursor: pointer;
+}
+
+.brand-logo {
+  margin-top: 32px;
+}

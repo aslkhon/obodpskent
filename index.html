@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <!-- Plugins CSS -->
+    <link
+      rel="stylesheet"
+      href="./plugins/bootstrap-4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./plugins/meanmenu/meanmenu.css" />
+    <link rel="stylesheet" href="./plugins/slick-1.8.1/slick.css" />
+    <link
+      rel="stylesheet"
+      href="./plugins/fancybox-master/jquery.fancybox.min.css"
+    />
+    <link rel="stylesheet" href="./plugins/aos-animation/aos.css" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="./fonts/ep-icon-fonts/css/style.css" />
+    <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.min.css" />
+    <link rel="stylesheet" href="./fonts/typography-font/typo-fonts.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./scss/settings.css" />
+    <link rel="stylesheet" href="./scss/style.css" />
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <!-- Header Starts -->
+      <header class="site-header position-relative d-lg-block">
+        <div class="container-fluid pr-lg--30 pl-lg--30">
+          <div
+            class="row justify-content-between align-items-center position-relative"
+          >
+            <div class="col-sm-3 col-6 col-lg-2 col-xl-2 order-lg-1">
+              <!-- Brand Logo -->
+              <div class="brand-logo">
+                <a href=""><img src="image/logo.png" alt=""/></a>
+              </div>
+            </div>
+            <!-- Menu Block -->
+            <div class=" col-6 col-sm-1 col-lg-6 col-xl-8   position-static order-lg-2">
+              <div class="main-navigation ">
+                <ul class="main-menu">
+
+                  <li class="menu-item"><i class="fas fa-globe lang"></i></li>
+								</ul>
+							</div>
+							
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Banner Section -->
+
+      <section class="hero-area position-relative section-padding pb-lg--0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-lg-7 col-xl-6  pb-lg--90 pb-xl--0 order-2 order-md-1">
+              <div class="hero-content">
+                <h1 class="title mb--30">
+                  Obod Pskent
+                </h1>
+                <p id="intro"></p>
+              </div>
+
+              <div class="hero-btns mt--40">
+                <a href="#" class="android download--button btn btn--primary mr--15"></a>
+                <a href="#" class="apple download--button btn btn--primary"></a>
+              </div>
+
+              <div class="hero-ratings mt--15">
+                <ul class="rating-stars">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <!-- <span class="trust-info">Trused by over 1M+ users</span> -->
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-5 col-xl-6 col-10 mb--30 mb-md--0 order-1 order-md-2">
+              <div class="hero-image position-relative">
+                  <div class="absolute-image image-1 d-none d-lg-block" data-aos="fade-left" data-aos-duration="1500"  data-aos-delay="300" data-aos-once="true">
+                      <img src="./image/hero-phone-1.png" alt="">
+                  </div>
+                  <div class="absolute-image image-2 d-none d-lg-block">
+                        <img src="./image/hero-phone-2.png" alt="">
+                  </div>
+                <div class="image-mobile d-lg-none">
+                    <img src="image/Phone_Images.png" alt="" />
+                </div>
+                <div class="phn-shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" data-aos-delay="200">
+                  <img src="image/phn-shape.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-shape" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-delay="100"><img src="image/hero-shape.png" alt="" /></div>
+      </section>
+
+      <!-- Feature Secction -->
+      <section class="feature-section section-padding-top">
+        <div class="container">
+          <div class="row space-dt--20">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mt--20" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" data-aos-delay="100">
+              <div class="feature-widget">
+                <div class="widget-icon">
+                  <span>01</span>
+                </div>
+                <div class="content">
+                  <h6 class="title" id="h1"></h6>
+                  <p id="p1"></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mt--20" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" data-aos-delay="300">
+              <div class="feature-widget">
+                <div class="widget-icon">
+                  <span>02</span>
+                </div>
+                <div class="content">
+                  <h6 class="title" id="h2"></h6>
+                  <p id="p2"></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mt--20" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" data-aos-delay="600">
+              <div class="feature-widget">
+                <div class="widget-icon">
+                  <span>03</span>
+                </div>
+                <div class="content">
+                  <h6 class="title" id="h3"></h6>
+                  <p id="p3"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-divider section-padding-top"></div>
+        </div>
+      </section>
+
+      <!-- Content Section 01 -->
+      <section class="content-section section-padding-top">
+        <div class="container">
+          <div class="content-wrapper">
+            <div class="row justify-content-center">
+              <div
+                class="col-sm-5 col-md-4 col-lg-5 col-xl-5 offset-xl-1 col-sm-7 col-7 order-1 order-md-2"
+              >
+                <div class="content-image-01" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
+                  <img src="image/iPhone.png" alt="" />
+                </div>
+              </div>
+
+              <div
+                class="col-sm-10 col-md-7 col-lg-6 offset-md-1 col-xl-5 order-2 order-md-1">
+                <div class="badge" data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
+<i class="fas fa-bullseye"></i>
+                  <span id="targetBand"></span>
+                </div>
+                <div class="content-right-content" data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
+                  <h2 class="title h2" id="targetHeading"></h2>
+                  <p id="target"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-divider"></div>
+        </div>
+      </section>
+
+      <!-- Example Section -->
+      <section class="example-section position-relative section-padding">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-10 col-md-10 col-sm-12 col-12">
+            <div class="section-title">
+              <h2 class="example-title h2" id="instructions"></h2>
+              <p id="instructions_desc"></p>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid px--0">
+          <div class="example-slider-wrapper mb--50 mb-lg--70">
+							<div class="example-slider">
+								<div class="single-slide">
+									<div class="example-image">
+										<img alt="mobile verification" id="imgOne" />
+									</div>
+								</div>
+		
+                <div class="single-slide">
+									<div class="example-image">
+										<img alt="verification timer" id="imgTwo" />
+									</div>
+								</div>
+                
+                <div class="single-slide">
+									<div class="example-image">
+										<img alt="registration" id="imgThree" />
+									</div>
+								</div>
+
+                <div class="single-slide">
+									<div class="example-image">
+										<img alt="main menu" id="imgFour" />
+									</div>
+								</div>
+
+                <div class="single-slide">
+									<div class="example-image">
+										<img alt="uploading problem" id="imgFive" />
+									</div>
+								</div>
+
+                <div class="single-slide">
+									<div class="example-image">
+										<img alt="successfully uploaded" id="imgSix" />
+									</div>
+								</div>
+
+                <div class="single-slide">
+									<div class="example-image">
+										<img alt="checking status" id="imgSeven" />
+									</div>
+								</div>
+							</div>
+							<div class="phone-bg-img">
+								<img src="image/iphone-xr.svg" alt="" />
+							</div>
+					</div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+
+      <section class="cta-section position-relative section-padding ">
+        <div class="container">
+          <div class="cta-wrapper">
+            <div class="cta-icon" >
+              <i class="fas fa-download"></i>
+            </div>
+
+            <h2 class="cta-title h2" id="downloadNow"></h2>
+            <div class="cta-btns mb--30">
+              <a href="#" class="android btn btn--primary download--button btn--large"></a>
+              <a href="#" class="apple btn btn--primary download--button btn--large"></a>
+            </div>
+          </div>
+        </div>
+        <div class="cta-shape" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" >
+          <img src="./image/Path_2_Copy.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+
+      <section class="footer-section section-padding-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-1">
+              <div class="footer-icon">
+                <i class="fas fa-address-book"></i>
+              </div>
+            </div>
+            <div class="col-lg-5 col-xl-4 col-sm-8 col-11 col-md-6">
+              <div class="footer-content">
+                <p class="p1" id="hokimiyat"></p>
+              </div>
+            </div>
+
+            <div class="col-lg-5 offset-lg-1">
+              <div class="row">
+                <div class="col-lg-6 col-md-4 col-sm-6">
+                  <span class="contact-title p1" id="address"></span>
+                  <div class="footer-address">
+                    <p id="address_txt"></p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <span class="contact-title p1" id="email"></span>
+
+                  <div class="footer-address">
+                    <p>contact@grayic.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-center mt--30 mt-md--50 mt-lg--80  section-padding-top">
+            <div class="col-lg-7 col-md-7 col-sm-7 col-sm-12">
+              <p class="footer-copyright-text text-lg-left p3">
+                ©2021 IT Solutions | Pskent Tuman Hokimiyati.
+              </p>
+            </div>
+
+            <div
+              class="col-lg-5 col-md-5 col-sm-5 col-sm-12"
+            >
+              <img class="university" src="./image/inha_logo.svg" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Vendor JS-->
+    <script src="./plugins/jquery/jquery.min.js"></script>
+    <script src="./plugins/jquery/jquery-migrate.min.js"></script>
+    <script src="./plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
+
+    <!-- Plugins JS -->
+    <script src="./plugins/meanmenu/jquery.meanmenu.js"></script>
+    <script src="./plugins/slick-1.8.1/slick.min.js"></script>
+    <script src="./plugins/fancybox-master/jquery.fancybox.min.js"></script>
+		<script src="./plugins/aos-animation/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./js/active.js"></script>
+    <script src="./js/localization.js"></script>
+  </body>
+</html>
