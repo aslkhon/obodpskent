@@ -36,6 +36,7 @@
 
 .fa-globe {
   font-size: 32px;
+  color: #00bcd4;
 }
 
 .main-menu {
@@ -60,5 +61,28 @@
 .hide {
   @media (max-width: 991px) {
     display: none;
+  }
+}
+
+.footer-copyright-text {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.terms_privacy {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  font-size: 16px;
+  :first-child {
+    padding-right: 12px;
+  }
+
+  :last-child {
+    padding-left: 12px;
+  }
+
+  a {
+    color: #00bcd4;
   }
 }

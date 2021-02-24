@@ -23255,6 +23255,7 @@ p {
 
 .fa-globe {
   font-size: 32px;
+  color: #00bcd4;
 }
 
 .main-menu {
@@ -23280,5 +23281,33 @@ p {
   .hide {
     display: none;
   }
+}
+
+.footer-copyright-text {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.terms_privacy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.terms_privacy :first-child {
+  padding-right: 12px;
+}
+
+.terms_privacy :last-child {
+  padding-left: 12px;
+}
+
+.terms_privacy a {
+  color: #00bcd4;
 }
 /*# sourceMappingURL=style.css.map */

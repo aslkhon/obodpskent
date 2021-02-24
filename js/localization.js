@@ -3,7 +3,7 @@ switchLang()
 
 function switchLang() {
   if (uzbek) {
-    document.getElementById('intro').innerHTML = 'Администрация Пскентского района для активного участия в природоохранной деятельности и благоустройстве района, представляет проект ObodPskent. Загрузите приложение из магазинов AppStore и PlayMarket.'
+    document.getElementById('intro').innerHTML = 'Администрация Пискентского района для активного участия в природоохранной деятельности и благоустройстве района, представляет проект ObodPskent. Загрузите приложение из магазинов AppStore и PlayMarket.'
 
     document.getElementById('h1').innerHTML = 'Удобно'
     document.getElementById('p1').innerHTML = 'Отправьте информацию в соответствующие организации без многочисленных этапов регистрации.'
@@ -14,9 +14,8 @@ function switchLang() {
     document.getElementById('h3').innerHTML = 'Эффективно'
     document.getElementById('p3').innerHTML = 'Отслеживайте результаты без необходимости происуствовать в длительных очередях на приеме у хокимията.'
 
-    document.getElementById('targetBand').innerHTML = 'Свойства'
     document.getElementById('targetHeading').innerHTML = 'Цель проекта'
-    document.getElementById('target').innerHTML = 'Основная цель проекта - обеспечение благоприятной окружающей среды в Пскентском районе и реализация со стороны хокимията и ответственных организаций природоохранных процессов при активном участии граждан.'
+    document.getElementById('target').innerHTML = 'Основная цель проекта - обеспечение благоприятной окружающей среды в Пискентском районе и реализация со стороны хокимията и ответственных организаций природоохранных процессов при активном участии граждан.'
 
     document.getElementById('instructions').innerHTML = 'Инструкции по использованию'
     document.getElementById('instructions_desc').innerHTML = 'Прочтите озакомительные инструкции ниже, чтобы использовать приложение.'
@@ -24,8 +23,11 @@ function switchLang() {
 
     document.getElementById('hokimiyat').innerHTML = 'Свяжитесь с хокимиятом'
     document.getElementById('address').innerHTML = 'Адрес:'
-    document.getElementById('address_txt').innerHTML = 'город Пскент'
+    document.getElementById('address_txt').innerHTML = 'город Пискент, улица Амира Темура, 138'
     document.getElementById('email').innerHTML = 'Koнтакты:'
+
+    document.getElementById('privacy').innerHTML = 'Политика конфиденциальности '
+    document.getElementById('terms').innerHTML = ' Условия использования'
 
     document.getElementById('imgOne').src = './image/one_rus.png'
     document.getElementById('imgTwo').src = './image/two_rus.png'
@@ -37,7 +39,7 @@ function switchLang() {
 
     uzbek = false
   } else {
-    document.getElementById('intro').innerHTML = 'Pskent tuman hokimiyati Sizning atrof-muhitni saqlash va obodonlashtirishdagi faolligingizni qo\'llab-quvvatlash uchun ObodPskent loyihasini taqdim etadi. Ilovani AppStore va PlayMarketdan\n o\'z telefoningizga yuklab oling.'
+    document.getElementById('intro').innerHTML = 'Piskent tuman hokimiyati Sizning atrof-muhitni saqlash va obodonlashtirishdagi faolligingizni qo\'llab-quvvatlash uchun ObodPskent loyihasini taqdim etadi. Ilovani AppStore va PlayMarketdan\n o\'z telefoningizga yuklab oling.'
     
     document.getElementById('h1').innerHTML = 'Oson'
     document.getElementById('p1').innerHTML = 'Qulay dastur interfeysi hokimiyatga ma\'lumotingizni uzoq ro\'yxatdan o\'tish bosqichlarisiz yo\'llash imkoniyatini beradi.'
@@ -48,9 +50,8 @@ function switchLang() {
     document.getElementById('h3').innerHTML = 'Navbatsiz'
     document.getElementById('p3').innerHTML = 'Amalga oshirilgan jarayonlarni onlayn ravishda ko\'rib boring. Hokimiyatga endilikda kelib-ketish hojati yo\'q.'
 
-    document.getElementById('targetBand').innerHTML = 'Xususiyat'
     document.getElementById('targetHeading').innerHTML = 'Loyiha maqsadi'
-    document.getElementById('target').innerHTML = 'Obod Pskent loyihaning oldiga qo\'yilgan asosiy maqsad bu Pskent tumanida obodonlashtirish va atrof-muhitni saqlashga yo\'naltirilgan jarayonlarni fuqarolar faol ishtirokida tuman hokimiyati va ma\'sul tashkilotlar tarafidan amalga oshirish.'
+    document.getElementById('target').innerHTML = 'ObodPskent loyihaning oldiga qo\'yilgan asosiy maqsad bu Piskent tumanida obodonlashtirish va atrof-muhitni saqlashga yo\'naltirilgan jarayonlarni fuqarolar faol ishtirokida tuman hokimiyati va ma\'sul tashkilotlar tarafidan amalga oshirish.'
 
     document.getElementById('instructions').innerHTML = 'Foydalanish uchun qo\'llanma'
     document.getElementById('instructions_desc').innerHTML = 'Ilovadan foydalanish uchun quyidagi qo\'llanma bilan tanishing.'
@@ -58,8 +59,11 @@ function switchLang() {
 
     document.getElementById('hokimiyat').innerHTML = 'Hokimiyat bilan bog\'laning'
     document.getElementById('address').innerHTML = 'Manzil:'
-    document.getElementById('address_txt').innerHTML = 'Pskent shahri'
+    document.getElementById('address_txt').innerHTML = 'Piskent shahri, Amir Temur ko\'chasi, 138'
     document.getElementById('email').innerHTML = 'Kontaktlar:'
+
+    document.getElementById('privacy').innerHTML = 'Maxfiylik siyosati '
+    document.getElementById('terms').innerHTML = ' Foydalanish shartlari'
 
     document.getElementById('imgOne').src = './image/one.png'
     document.getElementById('imgTwo').src = './image/two.png'
